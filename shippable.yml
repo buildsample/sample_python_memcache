@@ -4,5 +4,6 @@ python:
 services: 
  - memcached 
 install: pip install --use-mirrors -r requirements.txt
+
 script:
  - python sample.py
