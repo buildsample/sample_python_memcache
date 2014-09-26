@@ -11,4 +11,4 @@ script:
  #- git push git@heroku.com:buildsample.git  master
 branches:
   only:
-    - tag-include
+    - master
