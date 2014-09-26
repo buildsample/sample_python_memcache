@@ -7,5 +7,5 @@ services:
 install: pip install --use-mirrors -r requirements.txt
 script:
  - python sample.py
-after_success:
- - git push git@heroku.com:buildsample.git  master
+#after_success:
+ #- git push git@heroku.com:buildsample.git  master
