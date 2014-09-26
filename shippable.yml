@@ -1,7 +1,8 @@
 language: python
 python:
  - "2.7"
- - "2.6"
+ #- "2.6"
+ 
 services: 
  - memcached 
 install: pip install --use-mirrors -r requirements.txt
@@ -9,3 +10,6 @@ script:
  - python sample.py
 #after_success:
  #- git push git@heroku.com:buildsample.git  master
+branches:
+  only:
+    - master
