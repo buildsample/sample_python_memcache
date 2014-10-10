@@ -1,7 +1,7 @@
 language: python
 python:
  - "2.7"
- #- "2.6"
+ - "2.6"
  
 services: 
  - memcached 
@@ -11,6 +11,8 @@ script:
 #after_success:
  #- git push git@heroku.com:buildsample.git  master
 branches:
-  only:
+   only:
     - master
+    - cache 
+    
 cache: true 
