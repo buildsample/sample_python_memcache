@@ -20,4 +20,5 @@ branches:
 #cache: true 
 after_script:
  - cp README.md ./shippable
-#build_image: shippable/minv2:beta
+
+build_image: shippable/minv2:beta
