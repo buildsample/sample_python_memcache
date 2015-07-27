@@ -19,6 +19,7 @@ script:
 branches:
   only:
     - master
+    
 #cache: true 
 after_script:
  - cp README.md ./shippable
