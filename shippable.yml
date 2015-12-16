@@ -15,9 +15,6 @@ script:
 #after_success:
  #- git push git@heroku.com:buildsample.git  master
 
-branches:
-  only:
-    - master
     
 #cache: true 
 after_script:
