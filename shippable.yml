@@ -15,7 +15,6 @@ script:
 #after_success:
  #- git push git@heroku.com:buildsample.git  master
 
-    
 #cache: true 
 after_script:
  - cp README.md ./shippable
